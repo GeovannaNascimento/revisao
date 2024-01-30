@@ -1,0 +1,81 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(236, 236, 236);
+        }
+
+        header {
+            background-color: rgb(255, 139, 158);
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: rgb(230, 101, 122);
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+
+        main {
+            padding: 2em;
+        }
+
+        .line {
+            text-align: center;
+            color: rgb(238, 114, 114);
+
+        }
+
+        footer {
+            background-color: #70b9b7;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Blog Pessoal</h1>
+        <p>Bem-vindo ao meu espaço digital!</p>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <main>
+        <h2 class="line">Últimas Postagens</h2>
+        <article>
+            <h3 class="line">Título do Post</h3>
+            <p class="line">Conteúdo do post...</p>
+            <a href="#" class="line">Leia mais</a>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meu Blog Pessoal. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
