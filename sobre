@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" type="image/jpg" href="logo.png">
+  <title>SP Medical Group</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+
+<body>
+
+
+  <!--Atalho de páginas-->
+
+  <header>
+
+    <a class="text1" href="inicio">Inicio</a>
+    <a class="text2" href="sobre">Sobre Nós</a>
+    <a class="text3" href="contatos">Postagens</a>
+    <a class="text4" href="postagens">Nossos Contatos</a>
+
+  </header>
+
+  <main>
+
+    <section>
+
+      <div class="rectangle1"></div>
+      <div class="rectangle2"></div>
+      <div class="rectangle3"></div>
+      <div class="rectangle4"></div>
+      
+    </section>
+
+  </main>
+
+</body>
+
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+  }
+
+  .rectangle1 {
+    width: 130rem;
+    height: 0.13rem;
+    background: #8D9277;
+    left: 0%;
+    top: 14%;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .rectangle2 {
+    width: 130rem;
+    height: 0.3rem;
+    background: #8D9277;
+    left: 0%;
+    top: 13%;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .rectangle3 {
+    width: 130rem;
+    height: 0.3rem;
+    background: #8D9277;
+    left: 0%;
+    top: 21.65%;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .rectangle4 {
+    width: 130rem;
+    height: 0.1rem;
+    background: #8D9277;
+    left: 0%;
+    top: 21%;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .text1 {
+    position: absolute;
+    color: #AFAFAF;
+    top: 16.5%;
+    left: 7%;
+    font-size: 130%;
+    z-index: 0;
+  }
+
+  .text2 {
+    position: absolute;
+    color: #AFAFAF;
+    top: 16.5%;
+    left: 33%;
+    font-size: 130%;
+    z-index: 0;
+  }
+
+  .text3 {
+    position: absolute;
+    color: #AFAFAF;
+    top: 16.5%;
+    left: 58%;
+    font-size: 130%;
+    z-index: 0;
+  }
+
+  .text4 {
+    position: absolute;
+    color: #AFAFAF;
+    top: 16.5%;
+    left: 80%;
+    font-size: 130%;
+    z-index: 0;
+  }
+
+</style>
+
+</html>
